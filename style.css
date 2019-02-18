@@ -1,0 +1,231 @@
+/* ================== */
+/*      COULEUR        */
+/* ================== */
+
+.couleur{
+  border: 1px solid;
+  padding: 1.5rem;
+}
+.text-primary{
+
+  color :blue;
+
+}
+.primary{
+  color: white;
+  background-color: blue;
+}
+
+.text-secondary{
+  color: gray;
+}
+.secondary{
+  color: white;
+  background-color:gray;
+
+}
+
+.text-dark{
+ color:  #404040;
+}
+.dark{
+  color: white;
+  background-color: #404040;
+}
+
+.text-medium-light{
+  color: #808080;
+}
+
+.medium-light{
+  color: white;
+  background-color: #808080;  
+}
+
+.text-light-grey {
+  color: #D3D3D3;
+}
+.light-grey{
+  color:dark;
+  background-color: #D3D3D3;
+}
+
+.text-warning{
+  color: yellow;
+}
+.warning {
+  color: black;
+  background-color: yellow;
+}
+
+.text-success{
+  color: green;
+}
+.success{
+  color: black;
+  background-color: green;
+}
+
+.text-info{
+  color: #99d6ff;
+}
+.info{
+  color: white;
+  background-color: #99d6ff;
+}
+.text-danger{
+  color: red;
+}
+.danger{
+  color: white;
+  background-color: red;
+}
+
+
+/* ============= */
+/*     HEADER    */
+/* ============= */
+#headings{
+  border: solid 1px;
+  padding: 1.5rem;
+}
+.hd-awesome{
+  font-family: 'Merriweather', serif;
+}
+.hd-perfect{
+   font-family: 'PT Sans', sans-serif;
+}
+
+/* ============= */
+/*   PARAGRAPHE  */
+/* ============= */
+.paragraphe{
+  border: solid 1px;
+  padding: 1.5rem;
+}
+.p-mukta{
+  font-family: 'Mukta', sans-serif;
+}
+
+/* ================= */
+/*     BLACKQUOTE    */
+/* ================= */
+.blockquote{
+  border: solid 1px;
+  padding: 1.5rem;
+}
+.bq-primary{
+
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+/* ================= */
+/*       LISTING     */
+/* ================= */
+.listing{
+  border: solid 1px;
+  padding: 1.5rem;
+}
+.li-square{
+  list-style-type: square;
+}
+.li-alpha{
+  list-style-type: lower-alpha;
+}
+.li-roman{
+  list-style-type:lower-roman;
+}
+
+/* ================= */
+/*       BUTTON      */
+/* ================= */
+.btn-cls{
+  border: 1px red dashed;
+}
+.btn {
+  font: bold 11px Arial;
+  text-decoration: none;
+  padding: 2px 6px 2px 6px;
+}
+
+.btn-tran {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.btn-tran:hover {
+  background-color:white; /* Green */
+  color: black;
+}
+.btn-lg{
+  padding: 10px 20px;
+}
+.btn-md{
+  padding: 5px 10px;
+
+}
+.btn-sm{
+  padding: 5px 8px;
+}
+
+.btn-outline-primary{
+  border:solid 2px blue;
+  background-color: white;
+
+}
+
+
+.btn-outline-secondary{
+  border:solid 2px green; 
+  background-color: white;
+
+}
+.btn-outline-dark{
+  border: #404040 1.5px solid ;
+  background-color: white;
+
+}
+.btn-outline-medium-light{
+  border: #808080 solid 2px;
+  background-color: white;
+
+}
+.btn-outline-light-grey{
+  border: #D3D3D3 solid 2px;
+  background-color: white;
+
+}
+/* ============== */
+/*      ICONS     */
+
+
+
+/* ============== */
+/*      CARDS     */
+/* ============== */
+.card-cls{
+  border-style: groove;
+  border-color: coral;
+  border-width: 7px;
+  padding: 2rem;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; 
+}
+.card-body{
+  padding:1.5rem;
+}
+.card-title{
+  color:rgba(40, 83, 214, 0.849);
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+}
+.card-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
